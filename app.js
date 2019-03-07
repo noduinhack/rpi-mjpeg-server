@@ -25,7 +25,7 @@ function runScript(scriptPath, callback) {
 }
 
 // Now we can run a script and invoke a callback when complete, e.g.
-runScript('/home/pi/code/rpi-mjpeg-server/node_modules/raspberry-pi-mjpeg-server/raspberry-pi-mjpeg-server.js -w 640 -l 480 -p 3005 -t 80', function (err) {
+runScript('/home/pi/code/rpi-mjpeg-server/node_modules/raspberry-pi-mjpeg-server/raspberry-pi-mjpeg-server.js', function (err) {
   if (err) throw err;
   console.log('finished running some-script.js');
 });

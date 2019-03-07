@@ -47,7 +47,7 @@ var port = program.port || 3005,
     localIpAddress = localIp.address(),
     boundaryID = "BOUNDARY";
 
-exec("kill raspivid")
+exec("pkill raspivid")
 
 /**
  * create a server to serve out the motion jpeg images

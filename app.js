@@ -36,7 +36,7 @@ program.on('--help', function () {
 var port = program.port || 3005,
     width = program.width || 640,
     height = program.height || 480,
-    timeout = program.timeout || 80,
+    timeout = program.timeout || 200,
     quality = program.quality || 75,
     sharpness = program.sharpness || 0,
     contrast = program.contrast || 0,
